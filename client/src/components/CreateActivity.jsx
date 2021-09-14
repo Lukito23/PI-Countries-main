@@ -36,7 +36,7 @@ export default function ActivityCreate() {
         difficulty: '',
         duration: '',
         season: '',
-        countries: []
+        countryId: []
     })
 
 
@@ -69,7 +69,7 @@ export default function ActivityCreate() {
     function handleSelect(e){
         setDetails({
             ...details,
-            countries: [...details.countries, e.target.value]
+            countryId: [...details.countryId, e.target.value]
         })
     }
 
@@ -84,7 +84,7 @@ export default function ActivityCreate() {
             difficulty: '',
             duration: '',
             season: '',
-            countries: []
+            countryId: []
         })
         history.push('/home')
     }
@@ -92,7 +92,7 @@ export default function ActivityCreate() {
     function handleDelete(c){
         setDetails({
             ...details,
-            countries: details.countries.filter( country => country !== c)
+            countryId: details.countryId.filter( coun => coun !== c)
         })
     }
 
@@ -175,9 +175,7 @@ export default function ActivityCreate() {
                     </div>
                     <div className={styles.coun}>
                         <label>Select Country: </label>
-                        <select
-                            onChange={(e) => handleSelect(e)}
-                        >
+                        <select onChange= {(e) => handleSelect(e)}>
                             <option value=''>Country...</option>
                             {countries.map((c) => (
                                 <option value={c.id}>{c.name}</option>
@@ -187,7 +185,7 @@ export default function ActivityCreate() {
 
                     <button type='submit' className={styles.btn}>Add Activity</button>
                 </form>
-                {details.countries.map( c => 
+                {details.countryId.map( c => 
                     <div>
                         <p className={styles.c}>{c}</p>
                         <button onClick={() => handleDelete(c)} className={styles.close}>X</button>
