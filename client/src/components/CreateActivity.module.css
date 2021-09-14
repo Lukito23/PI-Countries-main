@@ -1,0 +1,161 @@
+.container {
+    width: 75%;
+    margin: auto;
+
+}
+
+.image{
+    background: url(../fondo-book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+ }
+
+
+
+.back {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.back:hover {
+    background-color: burlywood;
+}
+
+.title {
+    text-transform: uppercase;
+    padding: 15px 0px;
+    color: rgba(248, 248, 255, 0.925);
+ }
+
+ .names {
+     margin-bottom: 10px;
+ }
+ 
+ .names label {
+     color: rgba(248, 248, 255, 0.925);
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+
+ .names input{
+    background: lightgrey;
+    padding: 8px 0px;
+    font-size: 15px;
+    border-radius: 8px;
+ }
+
+
+ .diff {
+     margin-bottom: 10px;
+ }
+
+ .diff label {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .diff select {
+    background: lightgrey;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+ }
+
+
+ .dur {
+     margin-bottom: 10px;
+ }
+
+ .dur label {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.dur input{
+   background: lightgrey;
+   padding: 8px 0px;
+   font-size: 15px;
+   border-radius: 8px;
+}
+
+.sea {
+    margin-bottom: 10px;
+}
+
+.sea label {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.coun {
+    margin-bottom: 10px;
+}
+
+
+.coun label {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.coun select {
+    background: lightgrey;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.btn {
+
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;    
+}
+
+
+.btn:hover {
+    background-color: burlywood;
+}
+
+
+.c {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.close {
+
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 10px;    
+}
+
+
+.close:hover {
+    background-color: burlywood;
+}

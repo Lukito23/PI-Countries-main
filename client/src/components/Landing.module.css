@@ -1,0 +1,42 @@
+.container {
+    width: 75%;
+    margin: auto;
+    
+ }
+
+ .image{
+    background: url(../fondo-book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+ }
+
+
+.title1 {
+    text-transform: uppercase;
+    padding: 15px 0px;
+    color: rgba(248, 248, 255, 0.925);
+}
+
+
+.title2 {
+    text-transform: uppercase;
+    padding: 15px 0px;
+    color: rgba(248, 248, 255, 0.925);
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}

@@ -1,0 +1,100 @@
+.container {
+    width: 75%;
+    margin: auto;
+    
+ }
+
+
+.image{
+    background: url(../fondo-book.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+ }
+
+
+ .img {
+     width: 500px;
+     height: 300px;
+     padding-top: 50px;
+ }
+
+
+.names {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.cont {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.sub {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.cap {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.pop {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.area {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.act {
+    color: rgba(248, 248, 255, 0.925);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.ul {
+    list-style-type: none;
+}
+
+
+.actxt {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 20px;
+}
+
+.str {
+    text-transform: uppercase;
+}
+
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}

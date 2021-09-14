@@ -1,0 +1,14 @@
+.search {
+    background: lightgrey;
+    padding: 8px 0px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}

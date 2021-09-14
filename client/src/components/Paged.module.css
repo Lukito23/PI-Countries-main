@@ -1,0 +1,24 @@
+.ul {
+    list-style-type: none;
+}
+
+.list {
+    display: inline-block;
+}
+
+.btn {
+    background-color: lightgrey;
+    margin-left: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}
+
+.btn:focus {
+    background-color: burlywood;
+}

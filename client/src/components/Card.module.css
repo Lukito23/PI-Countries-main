@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+
+h4 {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h5 {
+    color: rgba(248, 248, 255, 0.925);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;    
+}
