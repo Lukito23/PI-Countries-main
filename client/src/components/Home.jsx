@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
-import { getCountries, filterContinent, sort } from "../actions";
+import { getCountries, filterContinent, sort, filterActivity } from "../actions";
 import { Link } from 'react-router-dom';
 import Card from "./Card";
 import Paged from "./Paged";
@@ -44,6 +44,10 @@ export default function Home() {
         setOrder(e.target.value)
 
     }
+
+    function handleFilterActivity(e){
+        dispatch(filterActivity(e.target.value))
+    }
     
 
     return(
@@ -74,6 +78,11 @@ export default function Home() {
                             <option value = 'Africa'>Africa</option>
                             <option value = 'Asia'>Asia</option>
                             <option value = 'Oceania'>Oceania</option>
+                        </select>
+                        <select onChange = {(e) => handleFilterActivity(e)} className={styles.selector3}>
+                            <option value='All'>Activity</option>
+                            <option value='skiing'>Skiing</option>
+                            <option value='running'>Running</option>
                         </select>
                     </div>
                     <SearchBar />

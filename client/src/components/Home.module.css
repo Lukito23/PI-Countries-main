@@ -80,6 +80,13 @@
     font-size: 15px;
 }
 
+.selector3 {
+    background: lightgrey;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 49% 48%;

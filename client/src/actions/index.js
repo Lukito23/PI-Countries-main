@@ -60,3 +60,10 @@ export function countryDetail (id){
         }
     }
 }
+
+export function filterActivity(payload){
+    return{
+        type: 'FILTER_ACTIVITY',
+        payload
+    }
+}
