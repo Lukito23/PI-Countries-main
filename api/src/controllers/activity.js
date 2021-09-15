@@ -15,7 +15,11 @@ async function createActivity(req, res, next){  //post('/')
             season
         })
         //Project.findOne({ where: { title: 'My Title' } })
-        const country = await Country.findByPk(countryId) //tiene el registro completo
+        const country = await Country.findOne({
+            where: {
+                id : countryId
+            }
+        }) //tiene el registro completo
         newActivity.addCountry(country) // a la actividad le asocio un pais
         res.json(newActivity)
         
