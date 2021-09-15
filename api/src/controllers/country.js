@@ -67,6 +67,7 @@ async function countries(req, res , next){  // get('/' y get query)
             if(countriesQ.length){
                 return res.json(countriesQ);
             } else {
+                console.log('no existe el pais')
                 return res.status(404).send('No existe el país')
             }
     
